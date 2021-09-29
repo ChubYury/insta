@@ -1,0 +1,46 @@
+include ../mixins/index
++b.main.MAIN
+  +b.profile-w.SECTION
+    +b.g-container--fit_sm-sm.--fit_md-md.--fit_lg-lg.--fit_xl-xl
+      +b.profile
+        +e.foto
+          +b.IMG(src="/static/img/ellipse.svg" alt="user_foto" title="User")
+        +b.info
+          +e.useName.H3 name
+          +b.btn.info__btn.BUTTON Follow
+          +b.btn.info__btn2.BUTTON ▾
+          +b.btnFun.info__btnFun.BUTTON ...
+          +b.rating
+            +e.item.P #[+e.item--bold.SPAN 79] posts 
+            +e.item.P #[+e.item--bold.SPAN 39] followers
+            +e.item.P #[+e.item--bold.SPAN 179] following  
+          +e.useNameMin.H6 Name
+          +e.useData.P 
+              |Lorem ipsum dolor sit amet consectetur
+              |adipisicing elit. Odit obcaecati quam tempore eaque necessitatibus
+              |exercitationem expedita ipsa reiciendis ad, inventore et vero
+              |sint aliquid cumque iste, enim labore veniam 
+              +b.A(href="#") bit.ly/35Ce3mx
+        +b.otherusers
+          +e.img.A(href="#")
+            +e.img-foto.IMG(src="/static/img/ellipse.svg" alt="foto other user")
+            +e.img-name.P Name
+          +e.img.A(href="#")
+            +e.img-foto.IMG(src="/static/img/ellipse.svg" alt="foto other user")
+            +e.img-name.P Name
+          +e.img.A(href="#")
+            +e.img-foto.IMG(src="/static/img/ellipse.svg" alt="foto other user")
+            +e.img-name.P Name
+  
+  +b.profgall-w.SECTION
+    +b.g-container--fit_sm-sm.--fit_md-md.--fit_lg-lg.--fit_xl-xl
+      +b.profgall
+        +b.galtab
+          +e.link.A(href="#") #[+e.link-icon.IMG(src="/static/img/icon/icon_post.svg" alt="icon_post")] POST
+          +e.link.A(href="#") #[+e.link-icon.IMG(src="/static/img/icon/icon_tagged.svg" alt="icon_post")] TAGGED
+        +b.galfoto
+          - count = 0;
+          while count < 15
+            +e.link.A(href="#")
+              +e.link-foto.IMG(src="/static/img/rectangle.svg" alt="my foto")
+            - count += 1;

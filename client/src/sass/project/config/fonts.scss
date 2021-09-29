@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Nelvetica_Neue';
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nelvetica_Neue';
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../static/fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+    url('../../static/fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('../../static/fonts/HelveticaNeueCyr-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nelvetica_Neue';
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../static/fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+    url('../../static/fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+    url('../../static/fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+}

@@ -1,0 +1,127 @@
+.profile
+  d: flex
+  ai: center
+  flex-wrap: wrap
+  bg: #FAFAFA
+  pa: 35px 0px 50px 0px
+  &-w
+    bg: #FAFAFA
+  &__foto
+    w: 159px
+    h: 159px
+    p: 0px 2% 0px 2%
+    +mq-sm
+      w: 30%
+    img
+      w: 100%
+      h: 100%
+
+.info
+  d: flex
+  ai: center
+  flex-wrap: wrap
+  w: 46%
+  pl: 2%
+  fs: 12px
+  +mq-sm
+    w: 65%
+  &__
+    &useName
+      w: 100%
+      pr: 4%
+      fs: 22px
+      +mq-sm
+        d: block
+        w: 70px
+    &btn
+      w: 72px
+      ht: 22px
+      fs: 12px
+      mr: 2%
+    &btn2
+      w: 27px
+      h: 22px
+      fs: 15px
+      mr: 2%
+    &useNameMin
+      ma: 10px 0px
+      fs: 17px
+      //medium
+    &useData
+      a
+        fd: none
+        color: #133768
+.rating
+  d: flex
+  f-dir: column
+  jc: flex-start 
+  w: 100%
+  +mq-sm
+    f-dir: row
+  &__
+    &item
+      ma: 10px 10px 0px 0px
+      &--bold
+        mr: 0px
+
+.otherusers
+  d: flex
+  w: 100%
+  mt: 20px
+  &__
+    &img
+      w: 86px
+      h: 86px
+      ma: 30px 0px 0px 5%
+      fd: none
+      &-foto
+        pa: 3px
+        br: 1px solid #DBDBDB
+        br-radius: 50%
+      &-name
+        fd: none
+        mt: 10px
+        color: #262626
+        ta: center
+        //bold
+
+.profgall-w
+  bg: #FAFAFA
+  br-t: 1px solid #DBDBDB
+
+.profgall
+  d: flex
+  jc: center
+  flex-wrap: wrap
+  //h: 700px
+
+.galtab
+  mt: 16px
+  &__
+    &link
+      pos: relative
+      w: 62px
+      fd: none
+      pt: 20px
+      //top: -4
+      ma: 10px 15px 20px 15px
+      fs: 12px
+      color: rgba(38, 38, 38, 0.5)
+      //+bold
+      &:hover
+        color: rgba(38, 38, 38, 1)
+        br-t: 1px solid rgba(38, 38, 38, 1)
+        .galtab__link-icon
+          opacity: 1
+      &-icon
+        opacity: 0.5
+
+.galfoto
+  d: flex
+  jc: space-evenly
+  flex-wrap: wrap
+  &__link
+      w: 295px
+      h: 295px
+      ma: 10px 5px 10px 5px
+      &-foto
